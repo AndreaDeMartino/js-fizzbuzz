@@ -36,6 +36,12 @@ a{
   border-radius: 50%;
 }
 
+.u-flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* TEXT FONT */
 
 .u-montserrat{

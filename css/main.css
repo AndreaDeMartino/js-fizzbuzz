@@ -1,26 +1,75 @@
 /* General Rules */
 
-
 /* Utility */
-.box{
-  height: 40px;
-  width: 40px;
-}
-
-.red{
-background: red;
-}
-
-.blue{
-background: blue;
-}
-
-.yellow{
-background: yellow;
-}
-
-.green{
-background: green;
-}
 
 /* App */
+
+body{
+  background: #232323;
+}
+
+.main-container{
+  display: flex;
+}
+
+/* Box Img */
+.image-box{
+flex-grow: 1;
+}
+
+.image-box img {
+  max-width: 100%;
+}
+
+/* Box Console */
+.console-box{
+ width: 60%;
+ background: #252525;
+ display: flex;
+ flex-wrap: wrap;
+ border: 1px solid #514f4f;
+}
+
+.navbar{
+  width: 100%;
+}
+.navbar ul{
+  width: 100%;
+  background: #3d3d3d;
+}
+
+.navbar li{
+  color: #7c8084;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.navbar li.black{
+  background: black;
+  color: white;
+}
+
+.navbar li i.blue{
+  color: #5fa3e2;
+}
+
+.output-list{
+  width: 100%;
+}
+
+.output-list ul li{
+  border-bottom: 1px solid #514f4f ;
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+  padding: 2px;
+}
+
+/* Class by Js */
+.number{
+  color: #964ff2;
+}
+
+.condition{
+  color: #b5b1b1;
+}
