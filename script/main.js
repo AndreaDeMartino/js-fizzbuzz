@@ -7,7 +7,7 @@
 // Nome repo per consegnare l’esercizio: js-fizzbuzz
 
 
-for (var i = 1; i <= 100; i++){
+for (var i = 1; i <= 100; i++) {
   if ( ((i % 3) == false) && ((i % 5) == false) ) {
     console.log('FizzBuzz');
   }
